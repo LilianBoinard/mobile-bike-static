@@ -1,7 +1,10 @@
 @use "theme";
-@use "./menubar";
-@use "./footer";
-@use "./pages/qui-sommes-nous.scss";
+@use "menubar";
+@use "footer";
+@use "banner";
+@use "catalogue";
+@use "card";
+@use "/pages/qui-sommes-nous";
 
 
 * {
@@ -13,6 +16,7 @@
 
 html, body {
   height: 100%;
+  background-color: theme.$color-background;
 }
 
 body {
