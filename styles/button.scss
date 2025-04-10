@@ -1,14 +1,16 @@
+@use 'theme';
+
 .cta-button {
-  background-color: #d32f2f;
-  color: white;
+  background-color: theme.$color-primary;
+  color: theme.$color-text-light;
   border: none;
   padding: 15px 25px;
-  font-size: 16px;
+  font-size: theme.$font-size-base;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-  background-color: #aa2323;
+  background-color: darken(theme.$color-primary, 10%);
 }

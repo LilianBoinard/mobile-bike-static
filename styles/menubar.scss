@@ -1,9 +1,11 @@
+@use 'theme';
+
 .menubar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 30px;
-  background-color: white;
+  background-color: theme.$color-background;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: relative;
 
@@ -24,21 +26,21 @@
 
     li a {
       text-decoration: none;
-      color: #000;
+      color: theme.$color-text;
       font-weight: bold;
-      font-size: 18px;
+      font-size: theme.$font-size-medium;
       transition: color 0.3s ease;
     }
 
     li a:hover {
-      color: #0078d4;
+      color: lighten(theme.$color-text, 20);
     }
   }
 
   .menubar-user-icon {
     width: 35px;
     height: 35px;
-    background-color: #ddd;
+    background-color: theme.$color-surface;
     border-radius: 50%;
     display: flex;
     align-items: center;
