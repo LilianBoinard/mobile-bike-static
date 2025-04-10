@@ -1,4 +1,5 @@
 @use 'theme';
+@use 'sass:color';
 
 .cta-button {
   background-color: theme.$color-primary;
@@ -12,5 +13,5 @@
 }
 
 .cta-button:hover {
-  background-color: darken(theme.$color-primary, 10%);
+  background-color: color.adjust(theme.$color-primary, $lightness: -10%)
 }

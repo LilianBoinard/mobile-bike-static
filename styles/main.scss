@@ -1,6 +1,10 @@
 @use "theme";
-@use "./menubar";
-@use "./footer";
+@use "menubar";
+@use "footer";
+@use "banner";
+@use "catalogue";
+@use "card";
+
 
 * {
   margin: 0;
