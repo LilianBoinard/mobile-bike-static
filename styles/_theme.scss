@@ -1,0 +1,32 @@
+// Couleurs
+
+$color-primary: #3498db;        // couleur principale
+$color-secondary: #2ecc71;      // couleur secondaire
+$color-accent: #e67e22;         // couleur d’accentuation
+
+$color-background: #ffffff;     // fond global
+$color-surface: #f5f5f5;        // éléments comme les cartes
+$color-text: #333333;           // texte principal
+$color-text-light: #ffffff;     // texte sur fond sombre
+
+$color-border: #dddddd;         // bordures, séparateurs
+$color-muted: #999999;          // texte secondaire ou désactivé
+
+// Typographie
+
+$font-family-base: 'Open Sans', sans-serif;
+$font-size-base: 16px;
+$font-size-small: 14px;
+$font-size-large: 20px;
+
+$line-height-base: 1.5;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+// Espacements
+
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;

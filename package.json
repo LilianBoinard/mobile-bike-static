@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "sass": "^1.86.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
+  },
+  "scripts": {
+    "sass": "sass --watch styles/main.scss dist/styles/main.css"
+  }
+
+}

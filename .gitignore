@@ -1,0 +1,34 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# SASS
+*.css
+*.css.map
+*.sass-cache/
+*.scssc
+.sass-cache/
+
+# macOS
+.DS_Store
+
+# IDE / éditeurs
+.vscode/
+.idea/
+*.sw?
+
+# Build output
+/dist/
+/build/
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Cache navigateur ou outils
+.cache/
