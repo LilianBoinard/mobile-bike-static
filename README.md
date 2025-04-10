@@ -11,7 +11,7 @@ Avant de commencer, assurez-vous d'avoir installé [Node.js](https://nodejs.org/
 1. Clonez le projet sur votre machine locale :
 
    ```bash
-   git clone <url-du-repository>
+   git clone https://github.com/LilianBoinard/mobile-bike-static.git
    ```
 
 2. Installez les dépendances nécessaires :
