@@ -1,0 +1,95 @@
+#img-cont{
+    width: 100%;
+}
+
+.main-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.item-1 , .item-2, .item-3{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    max-width: 1300px;
+    height: 500px;
+}
+
+.img-desc {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.desc-service {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+    background-color: #EAF5FF;
+    box-sizing: border-box; 
+}
+
+
+
+.main-items .item-2 .desc-service button{
+    margin-top: 5rem;
+}
+
+
+
+.main-items h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+.main-items ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.position-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-size-1{
+    width: 100%;
+    max-width: 20rem;
+    height: fit-content; 
+    margin-top: 1rem;
+
+}
+
+.testbtn{
+    display: flex;
+    justify-content: end;
+}
+
+.btn-size-2{
+    width: 100%;
+    max-width: 20rem;
+    height: fit-content; 
+}
+
+.btn-size-3{
+    width: 100%;
+    max-width: 20rem;
+    height: fit-content;
+    position: relative;
+    top: 50px;
+}
+
+
+.main-items .item-3 {
+    height: auto;
+}
+
+.main-items .item-3 .img-desc{
+    max-height: 301.5px;
+    height: 100%;
+}
