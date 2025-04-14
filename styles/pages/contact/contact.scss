@@ -112,21 +112,3 @@ textarea {
     color: #555;
     margin-top: 0.5rem;
 }
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .form-row {
-        flex-direction: column;
-    }
-
-    .form-group {
-        width: 100%;
-    }
-
-    .sub-disc {
-        flex-direction: column;
-    }
-}
