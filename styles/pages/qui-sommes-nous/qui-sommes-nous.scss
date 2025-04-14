@@ -1,6 +1,6 @@
-@use '../theme';
-@use 'team';
-@use 'partnership';
+@use '../../theme';
+@use 'team.css';
+@use './partnership';
 
 .about-page {
   display: flex;

@@ -1,8 +1,13 @@
-@use '../theme';
+@use '../../theme';
 @use 'team_cards';
 
 .team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 4rem;
+
   &-image {
     margin-top: -25rem;
     width: 70rem;

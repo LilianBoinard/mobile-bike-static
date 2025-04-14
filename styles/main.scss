@@ -2,11 +2,12 @@
 @use "menubar";
 @use "footer";
 @use "banner";
-@use "catalogue";
-@use "card";
+@use "pages/nos-velos/catalogue";
+@use "pages/nos-velos/card";
 @use "pages/contact";
-@use "pages/service";
-@use "pages/qui-sommes-nous";
+@use "pages/services";
+@use "pages/qui-sommes-nous/qui-sommes-nous";
+@use "responsive";
 
 
 * {
