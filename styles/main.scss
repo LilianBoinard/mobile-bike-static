@@ -1,11 +1,11 @@
 @use "theme";
-@use "menubar";
-@use "footer";
-@use "banner";
+@use "components/layout/menubar";
+@use "components/layout/footer";
+@use "components/banner";
 @use "pages/nos-velos/catalogue";
 @use "pages/nos-velos/card";
-@use "pages/contact";
-@use "pages/services";
+@use "pages/contact/contact";
+@use "pages/services/services";
 @use "pages/qui-sommes-nous/qui-sommes-nous";
 @use "responsive";
 
